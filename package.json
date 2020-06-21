@@ -1,0 +1,17 @@
+{
+  "name": "nodemy-code",
+  "version": "1.0.0",
+  "main": "Baitap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Sever2.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "epress": "0.0.1-security",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
