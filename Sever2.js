@@ -8,4 +8,6 @@ app.get('/me', function(req,res){
   var filehtml = path.join(__dirname,'sever2.html')
   res.sendFile(filehtml)
 })
-app.listen(9999)
+app.listen(process.env.PORT, function(){
+  
+})
